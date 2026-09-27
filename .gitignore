@@ -1,0 +1,37 @@
+# Target & Build artifacts
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Node / Web
+node_modules/
+dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS / Temp files
+*.log
+tmp/
+.temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
