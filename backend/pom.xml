@@ -69,11 +69,10 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- In-memory database for isolated tests without a PostgreSQL service. -->
+		<!-- In-memory database for local development and H2 web console. -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>test</scope>
 		</dependency>
 
 		<!-- Spring Boot's test support for unit, MVC, and integration tests. -->
